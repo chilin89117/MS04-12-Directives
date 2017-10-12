@@ -22,3 +22,12 @@
 #### End of Section 12, lecture 168.
 
 ## `Exercise10.vue`
+* Custom directive `v-custom` with
+	* Javascript events as arguments:
+		* click
+		* mouseenter
+		* mouseleave
+	* custom methods as values:
+		* clicked()
+		* mouseEnter()
+		* mouseLeave()
