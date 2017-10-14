@@ -20,6 +20,13 @@
                                                  blinkRate: 500,}">Color this too!</h3>
       </div>
     </div>
+    <hr>
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+        <img src="./assets/Directive-Hooks.png">
+      </div>
+    </div>
+
   </div>
 </template>
 
