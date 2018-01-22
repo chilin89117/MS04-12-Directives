@@ -1,4 +1,4 @@
-# MS04-08 Custom Directives (No Laravel)
+# MS04-12-Directives
 **Note: edit `main.js` to switch between `App.vue` and `Exercise10.vue`**
 ## `App.vue`
 ### Create a globally-registered custom directive `v-highlight`
@@ -31,3 +31,4 @@
 		* clicked()
 		* mouseEnter()
 		* mouseLeave()
+	* view results in browser console

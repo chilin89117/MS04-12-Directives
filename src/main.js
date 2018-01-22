@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import App from './App.vue'
-// import App from './Exercise10.vue'
+// import App from './App.vue'
+import App from './Exercise10.vue'
 
 // Globally register custom directives
 Vue.directive('highlight', {
