@@ -1,4 +1,9 @@
 # MS04-12-Directives
+## Custom directives
+
+![App.vue](../assets/a.png?raw=true)
+![Exercise10.vue](../assets/b.png?raw=true)
+
 **Note: edit `main.js` to switch between `App.vue` and `Exercise10.vue`**
 ## `App.vue`
 ### Create a globally-registered custom directive `v-highlight`
