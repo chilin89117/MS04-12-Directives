@@ -1,6 +1,6 @@
 {
-  "name": "08-directives",
-  "description": "MS04-08 Custom directives",
+  "name": "ms04-12-directives",
+  "description": "MS04-12-Custom directives",
   "version": "1.0.0",
   "author": "Chi Lin <chilin89117@gmail.com>",
   "private": true,
@@ -18,9 +18,9 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
-    "vue-loader": "^13.0.5",
+    "vue-loader": "^13.7.1",
     "vue-template-compiler": "^2.4.4",
-    "webpack": "^3.6.0",
+    "webpack": "^3.11.0",
     "webpack-dev-server": "^2.9.1"
   }
 }

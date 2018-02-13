@@ -5,14 +5,14 @@
 ![Exercise10.vue](../assets/b.png?raw=true)
 
 **Note: edit `main.js` to switch between `App.vue` and `Exercise10.vue`**
+
 ## `App.vue`
 ### Create a globally-registered custom directive `v-highlight`
-* with argument `bg` to change background color
-* with modifier `delay` for delayed effect
+* argument `bg` changes background color to value of binding; otherwise text color is changed
+* modifier `delay` adds delayed effect
 
 ### Create a locally-registered custom directive `v-local-highlight`:
-
-* with argument `bg` to change background color
+* with argument `bg` to change background color as above
 
 * with modifiers
 	* `delayed` for delayed effect

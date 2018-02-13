@@ -26,7 +26,6 @@
         <img src="./assets/Directive-Hooks.png">
       </div>
     </div>
-
   </div>
 </template>
 
@@ -35,15 +34,12 @@
     directives: {
       'local-highlight': {
         bind(el, binding, vnode) {
-          var delay = 0;
-          if(binding.modifiers['delayed']) {    // Set delay
-            delay = binding.value.delay;
-          }
-          if(binding.modifiers['blink']) {      // If 'blink' modifier, alternate colors
+          let delay = 0;
+          if(binding.modifiers['delayed']) delay = binding.value.delay;
+          if(binding.modifiers['blink']) {
             let mainColor = binding.value.mainColor;
             let altColor = binding.value.altColor;
             let currentColor = mainColor;
-
             setTimeout(() => {
               setInterval(() => {
                 currentColor == mainColor ? currentColor = altColor : currentColor = mainColor;
@@ -54,9 +50,8 @@
                 }
               }, binding.value.blinkRate);
             }, delay);
-          } else {                             // If no 'blink' modifier, just set color
+          } else {       // If no 'blink' modifier, just set color
             setTimeout(() => {
-              console.log('hello');
               if(binding.arg == 'bg') {
                 el.style.backgroundColor = binding.value.mainColor;
               } else {
